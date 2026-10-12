@@ -1,19 +1,30 @@
 # Skai Reality — Instagram
 
 Post designs for [@skai_reality_bhiwandi](https://www.instagram.com/skai_reality_bhiwandi/).
+Publishing goes through the Windsor.ai Instagram connector, using the public
+raw.githubusercontent.com URLs of the JPEGs in this folder.
 
-- `design/post.html` — 1080×1350 (4:5) slide template. Open with `?s=1`, `?s=2`, `?s=3` to view each slide.
-- `posts/<date>-<name>/` — rendered JPEG slides plus `caption.txt` for each post.
+## Layout
 
-## Re-rendering
+- `brand/` — Skai Reality logo: original upload, transparent full logo, icon, wordmark, and a
+  dark icon variant for light backgrounds. Brand colours: navy `#001b39`, yellow `#faac01`, cyan `#0099c5`.
+- `design/post.html` — launch carousel template (1080×1350). View slides with `?s=1`, `?s=2`, `?s=3`.
+- `posts/2026-10-skai-launch/` — rendered launch carousel + caption.
+- `daily/calendar.json` — daily post calendar. Two post types:
+  - `motivation` — navy quote card. `text` uses `\n` for line breaks and `*word*` for yellow highlight;
+    optional `author` (only for correctly attributed quotes).
+  - `gyaan` — light "Real Estate Gyaan" explainer with a `title` and 3–4 `points` of `[heading, text]`.
+- `daily/out/<date>.jpg|.txt` — rendered post and full caption (CTA + hashtags added automatically).
+- `scripts/render_daily.py` — renders the calendar.
+
+## Daily posts
 
 ```bash
-for i in 1 2 3; do
-  chromium --headless --no-sandbox --hide-scrollbars --virtual-time-budget=8000 \
-    --window-size=1080,1600 --screenshot=s$i.png "file://$PWD/design/post.html?s=$i"
-done
-# then crop each PNG to 1080x1350 and save as JPEG (Instagram needs JPEG, ≤8 MB, 4:5–1.91:1)
+python3 scripts/render_daily.py               # render everything in the calendar
+python3 scripts/render_daily.py 2026-10-20    # render one date
 ```
 
-Publishing goes through the Windsor.ai Instagram connector (`create_carousel_post`), using the
-public raw.githubusercontent.com URLs of the slide JPEGs.
+A daily routine publishes `daily/out/<today>.jpg` with its caption at ~11 AM IST and appends the
+result to `daily/posted.log`. Add new days to `calendar.json`, render, and push.
+
+Instagram API limits: JPEG, ≤ 8 MB, aspect 4:5 to 1.91:1, caption ≤ 2,200 chars, ≤ 30 hashtags.
