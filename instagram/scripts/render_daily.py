@@ -64,6 +64,21 @@ body { font-family:Poppins, sans-serif; font-variant-numeric:lining-nums; }
 .gy .pt h3 { font-size:40px; font-weight:700; line-height:1.2; }
 .gy .pt p { font-size:31px; line-height:1.4; color:#33475e; margin-top:6px; font-weight:400; }
 .gy .foot { color:var(--navy); } .gy .foot .line { background:rgba(0,27,57,.2); }
+/* legend (photo + quote) */
+.leg { background:var(--navy); color:#fff; }
+.leg .photo { position:absolute; left:0; right:0; top:0; height:980px; background-size:cover; background-position:center 18%; }
+.leg .shade { position:absolute; left:0; right:0; top:0; height:1350px;
+   background:linear-gradient(180deg, rgba(0,27,57,.55) 0%, rgba(0,27,57,0) 18%, rgba(0,27,57,0) 38%, rgba(0,27,57,.85) 58%, var(--navy) 68%); }
+.leg .top, .leg .lq, .leg .foot { position:relative; z-index:2; }
+.leg .chip { color:var(--navy); background:var(--yellow); }
+.leg .lq { margin-top:auto; padding-bottom:44px; }
+.leg .mark { font-family:'Playfair Display', serif; font-weight:700; font-size:190px; line-height:.6; color:var(--yellow); height:84px; }
+.leg .qt { font-weight:700; line-height:1.22; margin-top:18px; }
+.leg .who { margin-top:30px; display:flex; align-items:baseline; gap:18px; flex-wrap:wrap; }
+.leg .who b { color:var(--yellow); font-size:36px; font-weight:700; }
+.leg .who span { color:#b7c8da; font-size:26px; }
+.leg .credit { position:absolute; right:84px; top:182px; z-index:2; font-size:15px; color:rgba(255,255,255,.55); }
+.leg .foot { color:#cfe3f0; margin-top:0; } .leg .foot .line { background:rgba(255,255,255,.25); }
 """
 
 SKYLINE = """
@@ -97,14 +112,33 @@ def quote_size(text):
     return min(size, int(700 / (lines * 1.1)))
 
 
+def legend_size(quote):
+    n = len(quote.replace("*", ""))
+    return 64 if n <= 55 else 56 if n <= 80 else 48
+
+
+def photo_info(post):
+    credits = json.loads((ROOT / "photos" / "credits.json").read_text(encoding="utf-8"))
+    info = credits[post["photo"]]
+    return (ROOT / "photos" / info["file"]).as_uri(), info["credit"]
+
+
 def page(post):
-    variant = "skai-logo-icon.png" if post["type"] == "motivation" else "skai-logo-icon-dark.png"
+    variant = "skai-logo-icon-dark.png" if post["type"] == "gyaan" else "skai-logo-icon.png"
     logo_uri = (ROOT / "brand" / variant).as_uri()
     top = (f'<div class="top"><div class="logo"><img src="{logo_uri}"><span>SKAI REALITY</span></div>'
            f'<div class="chip">{html.escape(post["tag"])}</div></div>')
     foot = ('<div class="foot"><span>@skai_reality_bhiwandi</span><span class="line"></span>'
             '<span>Fraction Your Future</span></div>')
-    if post["type"] == "motivation":
+    if post["type"] == "legend":
+        photo_uri, credit = photo_info(post)
+        body = (f'<section class="post leg"><div class="photo" style="background-image:url(\'{photo_uri}\')"></div>'
+                f'<div class="shade"></div><div class="credit">Photo: {html.escape(credit)}</div>{top}'
+                f'<div class="lq"><div class="mark">“</div>'
+                f'<div class="qt" style="font-size:{legend_size(post["quote"])}px">{rich(post["quote"])}</div>'
+                f'<div class="who"><b>— {html.escape(post["person"])}</b><span>{html.escape(post["title"])}</span></div></div>'
+                f'{foot}</section>')
+    elif post["type"] == "motivation":
         author = f'<div class="author">— {html.escape(post["author"])}</div>' if post.get("author") else ""
         body = (f'<section class="post mot">{top}<div class="mid"><div class="quote-mark"></div>'
                 f'<div class="q" style="font-size:{quote_size(post["text"])}px">{rich(post["text"])}</div>'
@@ -116,11 +150,18 @@ def page(post):
         body = (f'<section class="post gy">{top}<h1>{rich(post["title"])}</h1><div class="bar"></div>'
                 f'<div class="pts">{pts}</div>{foot}</section>')
     return ('<!doctype html><html><head><meta charset="utf-8">'
-            '<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">'
+            '<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">'
             f'<style>{CSS}</style></head><body>{body}</body></html>')
 
 
 def caption(post):
+    if post["type"] == "legend":
+        quote = post["quote"].replace("*", "")
+        src = f' ({post["source"]})' if post.get("source") else ""
+        _, credit = photo_info(post)
+        tag = "#" + re.sub(r"[^A-Za-z]", "", post["person"])
+        return (f'"{quote}"\n— {post["person"]}{src}\n\n{post["caption"]}\n\n{CTA}\n\n'
+                f'Photo: {credit}\n\n{tag} {HASHTAGS}\n')
     return f'{post["caption"]}\n\n{CTA}\n\n{HASHTAGS}\n'
 
 

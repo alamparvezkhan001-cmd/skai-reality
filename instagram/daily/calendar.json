@@ -1,189 +1,84 @@
 [
   {
+    "date": "2026-10-13",
+    "type": "legend",
+    "person": "Dhirubhai Ambani",
+    "title": "Founder, Reliance Industries",
+    "slug": "dhirubhai-ambani",
+    "quote": "Think big, think fast, think ahead. Ideas are no one's *monopoly.*",
+    "caption": "Ek chhoti si textile trading firm se India ki sabse badi company tak. Dhirubhai Ambani ne dikhaya ki bada sochne ka haq sabka hai. 🇮🇳\n\nReal estate mein bhi yahi rule hai: bada sochiye, jaldi shuru kariye.",
+    "photo": "dhirubhai-ambani",
+    "tag": "India's Legends"
+  },
+  {
     "date": "2026-10-14",
-    "type": "motivation",
-    "tag": "Wednesday Motivation",
-    "text": "Rent dena\nkharcha hai.\n*Property* lena\ninvestment hai.",
-    "caption": "Har mahine ka rent kisi aur ki EMI bharta hai. Ek din apna hissa khud ka banaiye. 🏠"
+    "type": "legend",
+    "person": "Warren Buffett",
+    "title": "Chairman, Berkshire Hathaway",
+    "slug": "warren-buffett",
+    "quote": "Price is what you pay. *Value* is what you get.",
+    "source": "2008 Berkshire Hathaway shareholder letter",
+    "caption": "Property kharidte waqt sirf price mat dekhiye. Location, approvals, aur future growth, yahi asli value hai. 📈",
+    "photo": "warren-buffett",
+    "tag": "World's Legends"
   },
   {
     "date": "2026-10-15",
-    "type": "gyaan",
-    "tag": "Real Estate Gyaan",
-    "title": "Carpet vs Built-up vs *Super Built-up*",
-    "points": [
-      [
-        "Carpet Area",
-        "Flat ke andar ki usable floor area. RERA ke under price isi pe batana zaroori hai."
-      ],
-      [
-        "Built-up Area",
-        "Carpet area + deewaron ki thickness aur balcony jaisi jagah."
-      ],
-      [
-        "Super Built-up",
-        "Built-up + common areas ka share: lobby, lift, staircase, clubhouse."
-      ]
-    ],
-    "caption": "Builder \"1,000 sq.ft\" bole to pehla sawaal: carpet ya super built-up? Fark 25–35% tak ho sakta hai. Save karein, kaam aayega. 📌"
+    "type": "legend",
+    "person": "Rakesh Jhunjhunwala",
+    "title": "The Big Bull of Dalal Street",
+    "slug": "rakesh-jhunjhunwala",
+    "quote": "Respect the market. Have an open mind. Know what to stake. Know when to take a loss. *Be responsible.*",
+    "caption": "India ke Big Bull ka investing mantra, jo har investor pe laagu hota hai, chahe stocks ho ya real estate. 🐂",
+    "photo": "rakesh-jhunjhunwala",
+    "tag": "India's Legends"
   },
   {
     "date": "2026-10-16",
-    "type": "motivation",
-    "tag": "Friday Motivation",
-    "text": "Zameen ka supply\nfixed hai.\n*Demand* nahi.",
-    "caption": "Shehar badhte hain, log badhte hain, zameen utni hi rehti hai. Isliye real estate long-term wealth ka sabse purana raasta hai. 🌆"
+    "type": "legend",
+    "person": "Andrew Carnegie",
+    "title": "Steel industrialist & philanthropist",
+    "slug": "andrew-carnegie",
+    "quote": "Put all your eggs in one basket, and then *watch that basket.*",
+    "source": "Speech in Pittsburgh, 1885",
+    "caption": "Carnegie ki seekh: jahan invest karo, us pe poori nazar rakho. Isliye Skai Reality mein har project ke construction updates investors ko milte hain. 🧺",
+    "photo": "andrew-carnegie",
+    "tag": "World's Legends"
   },
   {
     "date": "2026-10-17",
-    "type": "gyaan",
-    "tag": "Real Estate Gyaan",
-    "title": "RERA kya hai aur *kyun zaroori* hai?",
-    "points": [
-      [
-        "Registration",
-        "Har eligible project ko MahaRERA mein register karna zaroori hai. Registration number ads pe dikhna chahiye."
-      ],
-      [
-        "Escrow",
-        "Buyers se aaye paise ka 70% alag account mein, sirf usi project ke construction ke liye."
-      ],
-      [
-        "Check karein",
-        "maharera.maharashtra.gov.in pe project details, timeline aur progress khud dekh sakte hain."
-      ]
-    ],
-    "caption": "Koi bhi property lene se pehle RERA number check karna mat bhooliye. Skai Reality ke projects RERA-compliant hain. ✅"
+    "type": "legend",
+    "person": "J.R.D. Tata",
+    "title": "Former Chairman, Tata Group",
+    "slug": "jrd-tata",
+    "quote": "Nothing worthwhile is ever achieved without deep thought and *hard work.*",
+    "source": "Letter to a schoolteacher, 1965",
+    "caption": "JRD Tata ne India ki pehli airline banayi aur Tata Group ko naye mukaam tak le gaye. Unki baat aaj bhi utni hi sach hai. ✈️",
+    "photo": "jrd-tata",
+    "tag": "India's Legends"
   },
   {
     "date": "2026-10-18",
-    "type": "motivation",
-    "tag": "Weekend Wisdom",
-    "text": "Don't wait to\nbuy real estate.\nBuy real estate\nand *wait.*",
-    "author": "T. Harv Eker",
-    "caption": "Real estate mein time aapka sabse bada partner hai. Jitna jaldi shuru, utna lamba compounding. ⏳"
+    "type": "legend",
+    "person": "Robert Kiyosaki",
+    "title": "Author, Rich Dad Poor Dad",
+    "slug": "robert-kiyosaki",
+    "quote": "The poor and the middle class work for money. The rich have *money work for them.*",
+    "source": "Rich Dad Poor Dad",
+    "caption": "Rich Dad Poor Dad ki sabse badi seekh: aise assets banaiye jo aapke liye kamaayein. Real estate unmein sabse purana asset hai. 🏢",
+    "photo": "robert-kiyosaki",
+    "tag": "World's Legends"
   },
   {
     "date": "2026-10-19",
-    "type": "motivation",
-    "tag": "Sunday Thought",
-    "text": "Har badi building\nek *chhote*\ninvestment se\nshuru hoti hai.",
-    "caption": "Pehli eent rakhna hi sabse mushkil kadam hai. Skai Reality ke saath shuruaat ₹50,000 se. 🧱"
-  },
-  {
-    "date": "2026-10-20",
-    "type": "gyaan",
-    "tag": "Real Estate Gyaan",
-    "title": "Fractional Ownership *kya hai?*",
-    "points": [
-      [
-        "Milkar ownership",
-        "Ek property ko kai investors milkar own karte hain, ek SPV ke through."
-      ],
-      [
-        "Kam ticket size",
-        "Poori property kharidne ki zaroorat nahi. Chhote amount se hissa le sakte hain."
-      ],
-      [
-        "Proportional returns",
-        "Rent aur appreciation mein share aapke investment ke hisaab se."
-      ]
-    ],
-    "caption": "Premium real estate ab sirf crorepatiyon ke liye nahi. Fraction Your Future. 🔑"
-  },
-  {
-    "date": "2026-10-21",
-    "type": "motivation",
-    "tag": "Wednesday Motivation",
-    "text": "Woh cheezein\nkharidiye jo\n*aapke liye*\nkaam karein.",
-    "caption": "Asset aapki jeb mein paisa daalta hai, liability nikaalti hai. Apne paise ko kaam pe lagaiye. 💼"
-  },
-  {
-    "date": "2026-10-22",
-    "type": "gyaan",
-    "tag": "Real Estate Gyaan",
-    "title": "FSI *kya hota hai?*",
-    "points": [
-      [
-        "Formula",
-        "FSI = Total construction area ÷ Plot area"
-      ],
-      [
-        "Example",
-        "1,000 sq.m plot aur FSI 2 = 2,000 sq.m tak construction allowed."
-      ],
-      [
-        "Matlab",
-        "Jitna zyada FSI, utni zyada development potential aur plot ki value."
-      ]
-    ],
-    "caption": "Plot ki asli value uski FSI mein chhupi hoti hai. Kal kisi plot ki baat ho to FSI zaroor poochiye. 📐"
-  },
-  {
-    "date": "2026-10-23",
-    "type": "motivation",
-    "tag": "Friday Motivation",
-    "text": "Sahi waqt ka\nintezaar mat\nkariye. Waqt ko\n*sahi investment*\ndijiye.",
-    "caption": "Perfect time kabhi nahi aata. Sahi research aur sahi partner ke saath aaj hi shuruaat kariye. 🚀"
-  },
-  {
-    "date": "2026-10-24",
-    "type": "gyaan",
-    "tag": "Real Estate Gyaan",
-    "title": "Property lene se pehle *ye check karein*",
-    "points": [
-      [
-        "7/12 ya Property Card",
-        "Zameen ka owner kaun hai aur land type kya hai."
-      ],
-      [
-        "Title Search Report",
-        "Pichle 30 saal ki ownership history clear honi chahiye."
-      ],
-      [
-        "Approved Plan + CC",
-        "Building plan aur Commencement Certificate sanctioned hain ya nahi."
-      ],
-      [
-        "RERA + Encumbrance",
-        "RERA registration, aur property pe koi loan ya case to nahi."
-      ]
-    ],
-    "caption": "Documents check karna boring lagta hai, par yahi aapka paisa bachata hai. Is post ko save kariye aur share kariye. 📑"
-  },
-  {
-    "date": "2026-10-25",
-    "type": "motivation",
-    "tag": "Sunday Thought",
-    "text": "Paisa bachana\nachha hai.\nPaise ko *badhana*\nzaroori hai.",
-    "caption": "Savings account mein pada paisa inflation se haar jaata hai. Use kaam pe lagaiye. 📈"
-  },
-  {
-    "date": "2026-10-26",
-    "type": "gyaan",
-    "tag": "Real Estate Gyaan",
-    "title": "SPV *kya hota hai?*",
-    "points": [
-      [
-        "Alag company",
-        "Special Purpose Vehicle: ek alag legal company jo sirf ek project ke liye banti hai."
-      ],
-      [
-        "Risk alag",
-        "Project ka paisa aur risk baaki business se separate rehta hai."
-      ],
-      [
-        "Clear ownership",
-        "Investors ka hissa documented aur transparent hota hai."
-      ]
-    ],
-    "caption": "Skai Reality mein har project ka apna SPV hota hai, taaki aapka investment safe aur clear rahe. 🛡️"
-  },
-  {
-    "date": "2026-10-27",
-    "type": "motivation",
-    "tag": "Tuesday Motivation",
-    "text": "Aaj ka chhota\ndecision, kal ki\n*badi property.*",
-    "caption": "Future aaj ke faislon se banta hai. Fraction Your Future with Skai Reality. ✨"
+    "type": "legend",
+    "person": "Warren Buffett",
+    "title": "Chairman, Berkshire Hathaway",
+    "slug": "warren-buffett-2",
+    "quote": "Be fearful when others are greedy and *greedy when others are fearful.*",
+    "source": "1986 Berkshire Hathaway shareholder letter",
+    "caption": "Jab sab bech rahe hon, tab sochne ka waqt hai. Jab sab khareed rahe hon, tab sambhalne ka. Smart investor bheed ke peeche nahi chalta. 🧠",
+    "photo": "warren-buffett",
+    "tag": "World's Legends"
   }
 ]

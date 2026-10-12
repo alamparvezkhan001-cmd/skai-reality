@@ -14,7 +14,13 @@ raw.githubusercontent.com URLs of the JPEGs in this folder.
   - `motivation` — navy quote card. `text` uses `\n` for line breaks and `*word*` for yellow highlight;
     optional `author` (only for correctly attributed quotes).
   - `gyaan` — light "Real Estate Gyaan" explainer with a `title` and 3–4 `points` of `[heading, text]`.
+  - `legend` — "India's / World's Legends": full-bleed photo of a business leader + a verified quote.
+    Fields: `person`, `title`, `quote` (`*word*` highlight), optional `source`, `photo` (slug in
+    `photos/credits.json`). Only use quotes with a documented source — several viral quotes
+    (e.g. the Ratan Tata "right decisions" line) are fake.
+- `photos/` — licensed portrait photos + `credits.json` (file name and attribution per slug).
 - `daily/out/<date>.jpg|.txt` — rendered post and full caption (CTA + hashtags added automatically).
+- `daily/backlog.json`, `daily/backlog-out/` — the earlier text-only motivation/gyaan series, not scheduled.
 - `scripts/render_daily.py` — renders the calendar.
 
 ## Daily posts
