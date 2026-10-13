@@ -2,12 +2,13 @@
   {
     "date": "2026-10-13",
     "type": "legend",
-    "person": "Dhirubhai Ambani",
-    "title": "Founder, Reliance Industries",
-    "slug": "dhirubhai-ambani",
-    "quote": "Think big, think fast, think ahead. Ideas are no one's *monopoly.*",
-    "caption": "Ek chhoti si textile trading firm se India ki sabse badi company tak. Dhirubhai Ambani ne dikhaya ki bada sochne ka haq sabka hai. 🇮🇳\n\nReal estate mein bhi yahi rule hai: bada sochiye, jaldi shuru kariye.",
-    "photo": "dhirubhai-ambani",
+    "person": "J.R.D. Tata",
+    "title": "Former Chairman, Tata Group",
+    "slug": "jrd-tata",
+    "quote": "Nothing worthwhile is ever achieved without deep thought and *hard work.*",
+    "source": "Letter to a schoolteacher, 1965",
+    "caption": "JRD Tata ne India ki pehli airline banayi aur Tata Group ko naye mukaam tak le gaye. Unki baat aaj bhi utni hi sach hai. ✈️",
+    "photo": "jrd-tata",
     "tag": "India's Legends"
   },
   {
@@ -25,13 +26,14 @@
   {
     "date": "2026-10-15",
     "type": "legend",
-    "person": "Rakesh Jhunjhunwala",
-    "title": "The Big Bull of Dalal Street",
-    "slug": "rakesh-jhunjhunwala",
-    "quote": "Respect the market. Have an open mind. Know what to stake. Know when to take a loss. *Be responsible.*",
-    "caption": "India ke Big Bull ka investing mantra, jo har investor pe laagu hota hai, chahe stocks ho ya real estate. 🐂",
-    "photo": "rakesh-jhunjhunwala",
-    "tag": "India's Legends"
+    "person": "Robert Kiyosaki",
+    "title": "Author, Rich Dad Poor Dad",
+    "slug": "robert-kiyosaki",
+    "quote": "The poor and the middle class work for money. The rich have *money work for them.*",
+    "source": "Rich Dad Poor Dad",
+    "caption": "Rich Dad Poor Dad ki sabse badi seekh: aise assets banaiye jo aapke liye kamaayein. Real estate unmein sabse purana asset hai. 🏢",
+    "photo": "robert-kiyosaki",
+    "tag": "World's Legends"
   },
   {
     "date": "2026-10-16",
@@ -48,30 +50,6 @@
   {
     "date": "2026-10-17",
     "type": "legend",
-    "person": "J.R.D. Tata",
-    "title": "Former Chairman, Tata Group",
-    "slug": "jrd-tata",
-    "quote": "Nothing worthwhile is ever achieved without deep thought and *hard work.*",
-    "source": "Letter to a schoolteacher, 1965",
-    "caption": "JRD Tata ne India ki pehli airline banayi aur Tata Group ko naye mukaam tak le gaye. Unki baat aaj bhi utni hi sach hai. ✈️",
-    "photo": "jrd-tata",
-    "tag": "India's Legends"
-  },
-  {
-    "date": "2026-10-18",
-    "type": "legend",
-    "person": "Robert Kiyosaki",
-    "title": "Author, Rich Dad Poor Dad",
-    "slug": "robert-kiyosaki",
-    "quote": "The poor and the middle class work for money. The rich have *money work for them.*",
-    "source": "Rich Dad Poor Dad",
-    "caption": "Rich Dad Poor Dad ki sabse badi seekh: aise assets banaiye jo aapke liye kamaayein. Real estate unmein sabse purana asset hai. 🏢",
-    "photo": "robert-kiyosaki",
-    "tag": "World's Legends"
-  },
-  {
-    "date": "2026-10-19",
-    "type": "legend",
     "person": "Warren Buffett",
     "title": "Chairman, Berkshire Hathaway",
     "slug": "warren-buffett-2",
@@ -80,5 +58,29 @@
     "caption": "Jab sab bech rahe hon, tab sochne ka waqt hai. Jab sab khareed rahe hon, tab sambhalne ka. Smart investor bheed ke peeche nahi chalta. 🧠",
     "photo": "warren-buffett",
     "tag": "World's Legends"
+  },
+  {
+    "date": "2026-10-18",
+    "type": "legend",
+    "person": "Robert Kiyosaki",
+    "title": "Author, Rich Dad Poor Dad",
+    "slug": "robert-kiyosaki-2",
+    "photo": "robert-kiyosaki",
+    "tag": "World's Legends",
+    "quote": "The rich buy assets. The poor only have expenses. The middle class buys liabilities they *think are assets.*",
+    "source": "Rich Dad Poor Dad",
+    "caption": "Asset woh jo aapki jeb mein paisa daale, liability woh jo nikaale. Sahi real estate investment ek asset hai. 🏠"
+  },
+  {
+    "date": "2026-10-19",
+    "type": "legend",
+    "person": "Warren Buffett",
+    "title": "Chairman, Berkshire Hathaway",
+    "slug": "warren-buffett-3",
+    "photo": "warren-buffett",
+    "tag": "World's Legends",
+    "quote": "Our favorite holding period is *forever.*",
+    "source": "1988 Berkshire Hathaway shareholder letter",
+    "caption": "Real estate mein bhi asli wealth time ke saath banti hai. Achha asset lo, aur use time do. ⏳"
   }
 ]

@@ -77,7 +77,7 @@ body { font-family:Poppins, sans-serif; font-variant-numeric:lining-nums; }
 .leg .who { margin-top:30px; display:flex; align-items:baseline; gap:18px; flex-wrap:wrap; }
 .leg .who b { color:var(--yellow); font-size:36px; font-weight:700; }
 .leg .who span { color:#b7c8da; font-size:26px; }
-.leg .credit { position:absolute; right:84px; top:182px; z-index:2; font-size:15px; color:rgba(255,255,255,.55); }
+.leg .credit { position:absolute; right:84px; top:182px; z-index:2; font-size:15px; color:rgba(255,255,255,.8); text-shadow:0 1px 3px rgba(0,0,0,.8); }
 .leg .foot { color:#cfe3f0; margin-top:0; } .leg .foot .line { background:rgba(255,255,255,.25); }
 """
 
