@@ -19,5 +19,30 @@
     "file": "robert-kiyosaki.jpg",
     "credit": "Gage Skidmore, CC BY-SA 2.0, via Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Robert_Kiyosaki_(53864555330)_(cropped).jpg"
+  },
+  "bill-gates": {
+    "file": "bill-gates.jpg",
+    "credit": "Bogdan Hoyaux / European Union, CC BY 4.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg"
+  },
+  "benjamin-graham": {
+    "file": "benjamin-graham.jpg",
+    "credit": "AnonymousUnknown author, Public domain, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Benjamin_Graham_(1894-1976)_portrait_on_23_March_1950.jpg"
+  },
+  "narayana-murthy": {
+    "file": "narayana-murthy.jpg",
+    "credit": "ps482207, CC BY-SA 4.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Narayana_Murthy_CIF_(cropped).JPG"
+  },
+  "charlie-munger": {
+    "file": "charlie-munger.jpg",
+    "credit": "Nick, CC BY 2.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Charlie_Munger_(cropped).jpg"
+  },
+  "ray-dalio": {
+    "file": "ray-dalio.jpg",
+    "credit": "Web Summit, CC BY 2.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Web_Summit_2018_-_Forum_-_Day_2,_November_7_HM1_7481_(44858045925).jpg"
   }
 }
