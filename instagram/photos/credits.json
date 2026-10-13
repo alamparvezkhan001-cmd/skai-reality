@@ -1,3 +1,23 @@
 {
-  "_note": "One entry per photo slug used in daily/calendar.json. Use only photos you have the right to use (e.g. Wikimedia Commons CC BY / CC BY-SA / public domain, or your own licensed stock). 'credit' is printed on the image and in the caption, e.g. 'Jane Doe, CC BY-SA 4.0, via Wikimedia Commons'."
+  "_note": "One entry per photo slug used in daily/calendar.json. Use only photos you have the right to use (e.g. Wikimedia Commons CC BY / CC BY-SA / public domain, or your own licensed stock). 'credit' is printed on the image and in the caption, e.g. 'Jane Doe, CC BY-SA 4.0, via Wikimedia Commons'.",
+  "warren-buffett": {
+    "file": "warren-buffett.jpg",
+    "credit": "USA International Trade Administration, Public domain, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_(cropped).jpg"
+  },
+  "andrew-carnegie": {
+    "file": "andrew-carnegie.jpg",
+    "credit": "Theodore C. Marceau, Public domain, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Andrew_Carnegie,_by_Theodore_Marceau_(cropped)_(2).jpg"
+  },
+  "jrd-tata": {
+    "file": "jrd-tata.jpg",
+    "credit": "http://photodivision.gov.in/IntroPhotodetails.asp?thisPage=9, Public domain, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:J.R.D._Tata_(1955).jpg"
+  },
+  "robert-kiyosaki": {
+    "file": "robert-kiyosaki.jpg",
+    "credit": "Gage Skidmore from Surprise, AZ, United States of America, CC BY-SA 2.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Kiyosaki_(53864555330)_(cropped).jpg"
+  }
 }
