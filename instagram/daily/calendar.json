@@ -1,6 +1,6 @@
 [
   {
-    "date": "2026-10-13",
+    "date": "2026-10-13-am",
     "type": "legend",
     "person": "J.R.D. Tata",
     "title": "Former Chairman, Tata Group",
@@ -12,7 +12,7 @@
     "tag": "India's Legends"
   },
   {
-    "date": "2026-10-14",
+    "date": "2026-10-13-pm",
     "type": "legend",
     "person": "Warren Buffett",
     "title": "Chairman, Berkshire Hathaway",
@@ -24,7 +24,19 @@
     "tag": "World's Legends"
   },
   {
-    "date": "2026-10-15",
+    "date": "2026-10-14-am",
+    "type": "legend",
+    "person": "N. R. Narayana Murthy",
+    "title": "Founder, Infosys",
+    "slug": "narayana-murthy",
+    "photo": "narayana-murthy",
+    "tag": "India's Legends",
+    "quote": "Performance leads to recognition, *recognition leads to respect.*",
+    "source": "Convocation address, IIT Guwahati",
+    "caption": "Infosys ko zero se global company banane wale Murthy ji ki seekh: kaam bolta hai. Real estate mein bhi bharosa delivery se banta hai. 🏗️"
+  },
+  {
+    "date": "2026-10-14-pm",
     "type": "legend",
     "person": "Robert Kiyosaki",
     "title": "Author, Rich Dad Poor Dad",
@@ -36,7 +48,19 @@
     "tag": "World's Legends"
   },
   {
-    "date": "2026-10-16",
+    "date": "2026-10-15-am",
+    "type": "legend",
+    "person": "Bill Gates",
+    "title": "Co-founder, Microsoft",
+    "slug": "bill-gates",
+    "photo": "bill-gates",
+    "tag": "World's Legends",
+    "quote": "Success is a lousy teacher. It seduces smart people into *thinking they can't lose.*",
+    "source": "The Road Ahead, 1995",
+    "caption": "Market upar ho tab bhi research mat chhodiye. Har investment se pehle documents, location aur developer ko check kariye. 📊"
+  },
+  {
+    "date": "2026-10-15-pm",
     "type": "legend",
     "person": "Andrew Carnegie",
     "title": "Steel industrialist & philanthropist",
@@ -48,7 +72,19 @@
     "tag": "World's Legends"
   },
   {
-    "date": "2026-10-17",
+    "date": "2026-10-16-am",
+    "type": "legend",
+    "person": "Charlie Munger",
+    "title": "Vice Chairman, Berkshire Hathaway",
+    "slug": "charlie-munger",
+    "photo": "charlie-munger",
+    "tag": "World's Legends",
+    "quote": "Spend each day trying to be a little wiser than you were *when you woke up.*",
+    "source": "USC Law commencement address, 2007",
+    "caption": "Roz thoda seekhiye, roz thoda badhiye. Real Estate Gyaan ke liye @skai_reality_bhiwandi follow kariye. 📚"
+  },
+  {
+    "date": "2026-10-16-pm",
     "type": "legend",
     "person": "Warren Buffett",
     "title": "Chairman, Berkshire Hathaway",
@@ -60,7 +96,19 @@
     "tag": "World's Legends"
   },
   {
-    "date": "2026-10-18",
+    "date": "2026-10-17-am",
+    "type": "legend",
+    "person": "Benjamin Graham",
+    "title": "Author, The Intelligent Investor",
+    "slug": "benjamin-graham",
+    "photo": "benjamin-graham",
+    "tag": "World's Legends",
+    "quote": "The investor's chief problem, and even his worst enemy, is likely to be *himself.*",
+    "source": "The Intelligent Investor",
+    "caption": "Darr aur laalach, dono investor ke sabse bade dushman hain. Plan banaiye aur us pe tike rahiye. 🧭"
+  },
+  {
+    "date": "2026-10-17-pm",
     "type": "legend",
     "person": "Robert Kiyosaki",
     "title": "Author, Rich Dad Poor Dad",
@@ -72,7 +120,19 @@
     "caption": "Asset woh jo aapki jeb mein paisa daale, liability woh jo nikaale. Sahi real estate investment ek asset hai. 🏠"
   },
   {
-    "date": "2026-10-19",
+    "date": "2026-10-18-am",
+    "type": "legend",
+    "person": "Ray Dalio",
+    "title": "Founder, Bridgewater Associates",
+    "slug": "ray-dalio",
+    "photo": "ray-dalio",
+    "tag": "World's Legends",
+    "quote": "Pain + Reflection = *Progress*",
+    "source": "Principles, 2017",
+    "caption": "Har galti ek sabak hai. Jo investor seekhta hai, wahi aage badhta hai. 💡"
+  },
+  {
+    "date": "2026-10-18-pm",
     "type": "legend",
     "person": "Warren Buffett",
     "title": "Chairman, Berkshire Hathaway",
@@ -82,5 +142,28 @@
     "quote": "Our favorite holding period is *forever.*",
     "source": "1988 Berkshire Hathaway shareholder letter",
     "caption": "Real estate mein bhi asli wealth time ke saath banti hai. Achha asset lo, aur use time do. ⏳"
+  },
+  {
+    "date": "2026-10-19-am",
+    "type": "legend",
+    "person": "Robert Kiyosaki",
+    "title": "Author, Rich Dad Poor Dad",
+    "slug": "robert-kiyosaki-3",
+    "photo": "robert-kiyosaki",
+    "tag": "World's Legends",
+    "quote": "It's not how much money you make, but how much money *you keep.*",
+    "source": "Rich Dad Poor Dad",
+    "caption": "Kamaai se zyada zaroori hai bachat aur sahi jagah investment. Apne paise ko asset mein badaliye. 💰"
+  },
+  {
+    "date": "2026-10-19-pm",
+    "type": "legend",
+    "person": "Warren Buffett",
+    "title": "Chairman, Berkshire Hathaway",
+    "slug": "warren-buffett-4",
+    "photo": "warren-buffett",
+    "tag": "World's Legends",
+    "quote": "Rule No. 1: Never lose money. *Rule No. 2: Never forget Rule No. 1.*",
+    "caption": "Return se pehle safety. Isliye Skai Reality mein har project RERA-compliant aur alag SPV mein hota hai. 🛡️"
   }
 ]
